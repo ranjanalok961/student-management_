@@ -31,7 +31,7 @@ export default function Register() {
       );
 
       alert(response.data); // "User registered successfully!"
-      navigate("/login");
+      navigate("/");
     } catch (error) {
       if (error.response) {
         setError(error.response.data);
