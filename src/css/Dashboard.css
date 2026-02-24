@@ -1,0 +1,74 @@
+.dashboard-header {
+  margin-bottom: 30px;
+}
+
+.dashboard-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #1f2a44;
+}
+
+.dashboard-header p {
+  color: #667085;
+  font-size: 14px;
+}
+
+.dashboard-cards {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+/* Card Base */
+.dashboard-card {
+  flex: 1;
+  min-width: 260px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 25px;
+  border-radius: 16px;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Gradient Themes */
+.dashboard-card.blue {
+  background: linear-gradient(135deg, #1e90ff, #0052d4);
+}
+
+.dashboard-card.purple {
+  background: linear-gradient(135deg, #7f00ff, #e100ff);
+}
+
+/* Hover Effect */
+.dashboard-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon */
+.card-icon {
+  font-size: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 16px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-card h3 {
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.dashboard-card h2 {
+  font-size: 28px;
+  margin-top: 5px;
+}

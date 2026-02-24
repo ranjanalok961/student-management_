@@ -1,0 +1,114 @@
+/* Header */
+.student-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.student-header h1 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1f2a44;
+}
+
+/* Add Button */
+.add-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(90deg, #1e90ff, #0052d4);
+  color: white;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 82, 212, 0.3);
+}
+
+/* Table Card */
+.table-card {
+  background: white;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  overflow-x: auto;
+}
+
+/* Table */
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table thead {
+  background: #f4f6fb;
+}
+
+.student-table th {
+  text-align: left;
+  padding: 14px;
+  font-size: 14px;
+  color: #667085;
+  font-weight: 600;
+}
+
+.student-table td {
+  padding: 14px;
+  font-size: 14px;
+  color: #1f2a44;
+  border-top: 1px solid #f0f0f0;
+}
+
+/* Row Hover */
+.student-table tbody tr:hover {
+  background: #f9fbff;
+}
+
+/* Course Badge */
+.course-badge {
+  background: #eef4ff;
+  color: #0052d4;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn {
+  background: #e6f4ea;
+  color: #1a7f37;
+  padding: 6px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.edit-btn:hover {
+  background: #c7f0d8;
+}
+
+.delete-btn {
+  background: #fdecea;
+  color: #d93025;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.delete-btn:hover {
+  background: #f8c6c4;
+}

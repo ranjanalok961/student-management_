@@ -1,0 +1,78 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.form-card {
+  background: white;
+  padding: 35px;
+  width: 100%;
+  max-width: 480px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.06);
+}
+
+.form-card h2 {
+  margin-bottom: 6px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1f2a44;
+}
+
+.form-card p {
+  margin-bottom: 25px;
+  font-size: 14px;
+  color: #667085;
+}
+
+/* Input group */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #344054;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  outline: none;
+  background: #f9fafb;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+  border-color: #2b6de6;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(43, 109, 230, 0.15);
+}
+
+/* Save Button */
+.save-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #1e90ff, #0052d4);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.save-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 82, 212, 0.25);
+}
