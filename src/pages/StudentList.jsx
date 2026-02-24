@@ -15,7 +15,7 @@ function StudentList() {
   const fetchStudents = async () => {
     try {
       const response = await axios.get(
-        "https://localhost:8080/api/students"
+        "https://students-k8h7.onrender.com/api/students"
       );
       setStudents(response.data);
     } catch (error) {
