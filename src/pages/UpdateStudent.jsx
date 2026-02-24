@@ -22,7 +22,7 @@ function UpdateStudent() {
   const fetchStudent = async () => {
     try {
       const response = await axios.get(
-        `http://students-k8h7.onrender.com/api/students/${id}`
+        `https://students-k8h7.onrender.com/api/students/${id}`
       );
       setStudent(response.data);
     } catch (error) {
@@ -41,7 +41,7 @@ function UpdateStudent() {
     e.preventDefault();
     try {
       await axios.put(
-        `http://students-k8h7.onrender.com/api/students/${id}`,
+        `https://students-k8h7.onrender.com/api/students/${id}`,
         student
       );
       alert("Student Updated Successfully!");

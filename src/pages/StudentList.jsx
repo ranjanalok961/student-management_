@@ -15,7 +15,7 @@ function StudentList() {
   const fetchStudents = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:8080/api/students"
+        "https://localhost:8080/api/students"
       );
       setStudents(response.data);
     } catch (error) {
@@ -26,7 +26,7 @@ function StudentList() {
   const deleteStudent = async (id) => {
     if (window.confirm("Are you sure you want to delete this student?")) {
       await axios.delete(
-        `http://students-k8h7.onrender.com/api/students/${id}`
+        `https://students-k8h7.onrender.com/api/students/${id}`
       );
       fetchStudents();
     }

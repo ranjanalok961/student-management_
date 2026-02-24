@@ -22,7 +22,7 @@ export default function Register() {
 
     try {
       const response = await axios.post(
-        "http://students-k8h7.onrender.com/api/auth/register",
+        "https://students-k8h7.onrender.com/api/auth/register",
         {
           name: name,
           email: email,

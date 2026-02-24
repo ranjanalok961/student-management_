@@ -19,7 +19,7 @@ export default function Login() {
 
     try {
       const response = await axios.post(
-        `http://students-k8h7.onrender.com/api/auth/login?email=${email}&password=${password}`,
+        `https://students-k8h7.onrender.com/api/auth/login?email=${email}&password=${password}`,
       );
 
       alert(response.data); // "Login successful!"
